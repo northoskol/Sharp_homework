@@ -5,7 +5,7 @@
 
 Console.Write("Введите первое число: ");
 int number1 = int.Parse(Console.ReadLine());
-Console.Write("Введите первое число: ");
+Console.Write("Введите второе число: ");
 int number2 = int.Parse(Console.ReadLine());
 Console.Write("Большее число: " + Math.Max(number1, number2));
 Console.Write(" Меньшее число: " + Math.Min(number1, number2));
